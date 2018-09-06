@@ -1,0 +1,41 @@
+.hw {
+  display: flex;
+  position: relative;
+}
+.logo {
+  color: white;
+  margin: 20px;
+}
+
+@media (max-width: 799px) {
+}
+
+.noLinks {
+  display: none;
+}
+
+.hamburger {
+  height: 40px;
+  width: 70px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  border-radius: 5px;
+  font: 20px;
+}
+
+@media (min-width: 800px) {
+  .hamburger {
+    display: none;
+  }
+  .links {
+    display: flex;
+    color: white;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+  .link {
+    margin: 15px;
+  }
+}
